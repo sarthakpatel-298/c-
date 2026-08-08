@@ -4,14 +4,12 @@ int main(){
 
 char vowels[5];
 
-for(int index=0;index<5;index++){
-
-    cin>>vowels[index];
-}
-for(int index=0;index<5;index++){
-
-    cout<<vowels[index]<<endl;
+for(char&element:vowels){
+   cin>>element;
 }
 
-    return 0;
+for(int index=0;index<5;index++){
+   cout<<vowels[index]<<endl;
+}
+  return 0;
 }

@@ -18,7 +18,6 @@ int main(){
         for(int element: v){
             cout<<element<<"  ";
         }
-
         //while loop
 
         int idx=0;
